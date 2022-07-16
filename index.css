@@ -2,18 +2,23 @@
   font-family: Roboto-Regular;
   src: url(./fonts/Roboto/Roboto-Regular.ttf);
 }
+@font-face{
+  font-family: 'Edu QLD Beginner', cursive;
+  src: url(./FUENTES/static/);
+}
 
 h1 {
-  font-family: "Roboto-Regular";
   background-color: rgba(150, 210, 40, 0.3);
   color: red;
   font-style: oblique;
-  width: 537px;
+  width: 620px;
+  font-family: 'Edu QLD Beginner', cursive;
 }
 
 form {
   background-color: rgba(255, 0, 0, 0.6);
   color: white;
+  width: 763px;
 }
 
 p {
@@ -23,4 +28,13 @@ p {
 
 #nombre {
   background-color: black;
+  color: lime;
+}
+#apellido{
+  background-color: black;
+  color: lime;
+}
+#tag{
+  background-color: black;
+  color: lime;
 }
