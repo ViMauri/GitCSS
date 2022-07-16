@@ -2,17 +2,38 @@
   font-family: Roboto-Regular;
   src: url(./fonts/Roboto/Roboto-Regular.ttf);
 }
+<<<<<<< .merge_file_a03420
+@font-face{
+  font-family: 'Edu QLD Beginner', cursive;
+  src: url(./FUENTES/static/);
+}
 
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+>>>>>>> .merge_file_a08344
 h1 {
-  font-family: "Roboto-Regular";
   background-color: rgba(150, 210, 40, 0.3);
   color: red;
   font-style: oblique;
+<<<<<<< .merge_file_a03420
+  width: 620px;
+  font-family: 'Edu QLD Beginner', cursive;
+=======
+  text-transform: uppercase;
+  text-align: center;
+>>>>>>> .merge_file_a08344
 }
 
 form {
   background-color: rgba(255, 0, 0, 0.6);
   color: white;
+  width: 763px;
 }
 
 a {
@@ -26,8 +47,23 @@ p {
 
 #nombre {
   background-color: black;
+  color: lime;
 }
-
+#apellido{
+  background-color: black;
+  color: lime;
+}
+#tag{
+  background-color: black;
+  color: lime;
+}
+.titulazo{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: .2em;
+  padding: 2rem;
+}
 .texto {
   font-size:28px;
   font-family:helvetica;
@@ -57,6 +93,7 @@ p {
 @-webkit-keyframes parpadeo {  
   0% { opacity: 0.5; }
   50% { opacity: 0.0; }
+<<<<<<< .merge_file_a03420
    100% { opacity: 0.3; }
 }
 
@@ -64,4 +101,13 @@ p {
   0% { opacity: 0.5; }
    50% { opacity: 0.0; }
   100% { opacity: 0.5; }
+=======
+  100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+>>>>>>> .merge_file_a08344
 }
